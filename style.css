@@ -17,6 +17,7 @@ body{
 }
 
 .item {
+  /*height: 30px;*/
   min-height: 30px;
   width: 30px;
   border: 1px solid #e8e4e6;
@@ -33,7 +34,8 @@ body{
 
 .flex{
   display: flex;
-  height: 100px;
+  /*height: 100px;*/
+  flex-direction: column
 }
 
 .infl {
@@ -41,9 +43,10 @@ body{
 }
 
 .start {
-  justify-content: flex-start;
+  /*justify-content: flex-start;
   align-items: flex-start;
-  align-content: flex-start;
+  align-content: flex-start;*/
+  flex-direction: column;
 }
 
 .end {
@@ -62,6 +65,7 @@ body{
   justify-content: space-around;
   align-items: baseline;
   align-content: space-around;
+  flex-wrap: wrap;
 }
 
 .between {
